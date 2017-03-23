@@ -1,0 +1,3 @@
+with open("cars.csv", "r") as fh:
+	for line in fh:
+		print(line)
